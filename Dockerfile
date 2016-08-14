@@ -1,6 +1,5 @@
 # This Dockerfile is used to build an image containing basic stuff to be used as a Jenkins slave build node.
-FROM node:4.4.7 # Needed this.
-
+FROM node:4.4.7
 MAINTAINER Menzo Wijmenga ( Forked from: Ervin Varga <ervin.varga@gmail.com> )
 
 # In case you need proxy
